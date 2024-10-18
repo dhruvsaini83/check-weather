@@ -1,0 +1,47 @@
+#autocompleteResults {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    top: 48px;
+    position: absolute;
+    height: 150px;
+    /* background: #8080800f; */
+    padding: 0 9px;
+    width: 216px;
+}
+
+
+.inp_res {
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+}
+
+#autocompleteResults div{
+    cursor: pointer;
+}
+
+.autoC {}
+
+
+/* Hide clear (cross) button in the search input */
+.no-close::-ms-clear {
+    display: none;
+}
+
+.no-close::-ms-reveal {
+    display: none;
+}
+
+.no-close::-webkit-search-clear-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+.no-close::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
